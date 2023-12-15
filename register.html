@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://th.bing.com/th/id/R.5c8bad0db00ea20a1b349da8b758ab3e?rik=1A4bR4T1zbcGLA&pid=ImgRaw&r=0">
+    <link rel="stylesheet" href="resturant.css">
+    <title>book a table</title>
+</head>
+
+<body id="register-body">
+    <header>
+        <nav class="nav-bar">
+            <div class="title">
+                <div class="logo">
+                    <img src="https://th.bing.com/th/id/R.5c8bad0db00ea20a1b349da8b758ab3e?rik=1A4bR4T1zbcGLA&pid=ImgRaw&r=0"
+                        alt="not found" id="logo">
+                </div>
+                <div class="description">
+                    <label for="logo">
+                        <p class="title"> ema's </p>
+                        <p class="type">resturant</p>
+                    </label>
+                </div>
+            </div>
+            <div class="navigator">
+                <a href="index.html">home</a>
+                <a href="recipes.html">recipes</a>
+                <a href="chefs.html">chefs</a>
+                <a href="menu.html">menu</a>
+                <a href="https://www.facebook.com" title="facbook">contacts</a>
+            </div>
+        </nav>
+    </header>
+    <form action="" method="get" id="register-form">
+        <label for="register-form">
+            <p class="name">ema's</p>
+            <p class="place">resturant</p>
+        </label>
+        <div class="info user">
+            <label for="username">enter your full name</label>
+            <input type="text" placeholder="name" name="username" required autofocus id="username">
+        </div>
+        <div class="info mail">
+            <label for="mail">enter your email</label>
+            <input type="email" placeholder="e-mail" name="mail" required id="mail">
+        </div>
+        <div class="info seats">
+            <label for="num-seats">number of seats</label>
+            <input type="number" value="1" name="number_of_seats" id="num-seats" required max="10">
+        </div>
+        <div class="info date">
+            <label for="date">choose date</label>
+            <input type="date" name="date" id="date" required>
+        </div>
+        <div class="info time">
+            <label for="time">choose time</label>
+            <input type="time" name="time" id="tiem" required>
+        </div>
+        <div class="info place outside">
+            <input type="radio" name="table-place" id="table-place" required>
+            <label for="table-place">outside table</label>
+        </div>
+        <div class="info place inside">
+            <input type="radio" name="table-place" id="table-place" required>
+            <label for="table-place">inside table</label>
+        </div>
+        <div class="submit">
+            <input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
